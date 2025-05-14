@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golf Gear Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #004d26;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background-color: #006633;
+      text-align: center;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    .hero {
+      background-color: #e0f5ec;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+    }
+    .hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #004d26;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+    .search-bar {
+      text-align: center;
+      padding: 20px;
+    }
+    .search-bar input {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      font-size: 1em;
+    }
+    .products {
+      padding: 40px 20px;
+    }
+    .category {
+      margin-bottom: 40px;
+    }
+    .category h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+    .product h4 {
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #004d26;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Golf Gear Shop</h1>
+    <p>Premium golf gear and clothing for all players</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Welcome to the Ultimate Golf Store</h2>
+    <a href="#shop">Shop Now</a>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search golf gear...">
+  </div>
+
+  <div class="products" id="shop">
+    <!-- Golf Clubs -->
+    <div class="category">
+      <h2>Golf Clubs</h2>
+      <div class="product-list">
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.9Z2SO8npTIrGkC2XcIhfPQHaEo&pid=Api" alt="Driver"><h4>Driver</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.PpHepmNmbX00uz1-q5Vz5QHaEo&pid=Api" alt="Irons"><h4>Irons (3-9)</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.qp6JcJ0uXcsyDPsAiH4SIAHaEo&pid=Api" alt="Wedges"><h4>Wedges</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.XNnkcB46kdd5HVJxuWzCFAHaHa&pid=Api" alt="Putter"><h4>Putter</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.d71V08ksCqKH1cq9JlDoiQHaE7&pid=Api" alt="Fairway Woods"><h4>Fairway Woods</h4></div>
+      </div>
+    </div>
+
+    <!-- Accessories -->
+    <div class="category">
+      <h2>Golf Accessories</h2>
+      <div class="product-list">
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.6pFHH3m_MkOd1Z1RuHlgtwHaE8&pid=Api" alt="Golf Balls"><h4>Golf Balls</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.xpqV7AKenNm6gswZWJ9s0AHaE8&pid=Api" alt="Golf Tees"><h4>Golf Tees</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.PTxzK_FQQg3l8JtfvAVFhAHaEK&pid=Api" alt="Rangefinder"><h4>Rangefinder</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.xXqMzPYfq4gTLkTFLPbkrQHaE5&pid=Api" alt="Golf Gloves"><h4>Golf Gloves</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.P6t0GV6MzjWpSeFneI0iFQHaE8&pid=Api" alt="Golf Towel"><h4>Golf Towel</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.N1lUemh_wWdnWpgXWG7jTQHaFj&pid=Api" alt="Golf Hat/Visor"><h4>Golf Hat/Visor</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.C7gF0SNGhKo9GG5Jx9yxegHaE8&pid=Api" alt="Ball Markers"><h4>Ball Markers</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.kl2kVeQpo0TcmlgsNeHlZwHaE8&pid=Api" alt="Divot Tool"><h4>Divot Repair Tool</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.Uw7mwRpyA71eV9j3-zbDoAHaE8&pid=Api" alt="Umbrella"><h4>Umbrella</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.dOQ4iY2_qxK_FOnQEZM9LgHaEo&pid=Api" alt="Headcovers"><h4>Club Headcovers</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.r97f5O2EOKVAzjNG4TajqAHaE8&pid=Api" alt="Training Aids"><h4>Training Aids</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.p6g8_zDWwHLhxljve9Vh3wHaJ4&pid=Api" alt="Push Cart"><h4>Push Cart</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.Hb0V2Lgk7gJ5Hscod_AEqgHaFj&pid=Api" alt="GPS Watch"><h4>GPS Watch</h4></div>
+      </div>
+    </div>
+
+    <!-- Bags -->
+    <div class="category">
+      <h2>Golf Bags</h2>
+      <div class="product-list">
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.tg_O60g9tu2lLfcqS3ofFQHaE7&pid=Api" alt="Cart Bag"><h4>Cart Bag</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.72b_b72kp7u9o2q-bfPGgQHaE7&pid=Api" alt="Carry Bag"><h4>Carry Bag</h4></div>
+      </div>
+    </div>
+
+    <!-- Clothing -->
+    <div class="category">
+      <h2>Golf Clothing</h2>
+      <div class="product-list">
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.KuhtWVb9os-QURtFDOqogAHaE8&pid=Api" alt="Polo Shirt"><h4>Polo Shirt</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.rn5ehz5OdIcJ6pIR_NAErwHaEK&pid=Api" alt="Golf Shorts"><h4>Golf Shorts</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.XTQvqnlcHHLwwT27g51-dAHaFj&pid=Api" alt="Sweater/Jacket"><h4>Sweater/Jacket</h4></div>
+        <div class="product"><img src="https://www.bing.com/th?id=OIP.M_aFjlmGNOmc56xk-EJadgHaFj&pid=Api" alt="Golf Shoes"><h4>Golf Shoes</h4></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Golf Gear Shop</p>
+  </footer>
+
+</body>
+</html>
